@@ -56,5 +56,15 @@ namespace SmartCalc
         {
             textBox1.Text = textBox1.Text + '7';
         }
+
+        private void Button8_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + '8';
+        }
+
+        private void Button9_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + '9';
+        }
     }
 }
