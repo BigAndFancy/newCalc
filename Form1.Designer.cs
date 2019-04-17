@@ -45,6 +45,10 @@
             this.button15 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button16 = new System.Windows.Forms.Button();
+<<<<<<< HEAD
+=======
+            this.button17 = new System.Windows.Forms.Button();
+>>>>>>> initial commit
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -150,7 +154,7 @@
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(563, 379);
+            this.button11.Location = new System.Drawing.Point(563, 383);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(75, 23);
             this.button11.TabIndex = 10;
@@ -159,7 +163,7 @@
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(563, 343);
+            this.button12.Location = new System.Drawing.Point(563, 345);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(75, 23);
             this.button12.TabIndex = 11;
@@ -211,6 +215,7 @@
             this.button16.UseVisualStyleBackColor = true;
             this.button16.Click += new System.EventHandler(this.Button16_Click);
             // 
+<<<<<<< HEAD
             // label1
             // 
             this.label1.AutoSize = true;
@@ -218,6 +223,26 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 17;
+=======
+            // button17
+            // 
+            this.button17.Location = new System.Drawing.Point(168, 203);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(75, 23);
+            this.button17.TabIndex = 17;
+            this.button17.Text = "button17";
+            this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.Button17_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(70, 86);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "label1";
+>>>>>>> initial commit
             // 
             // Form1
             // 
@@ -225,6 +250,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
+<<<<<<< HEAD
+=======
+            this.Controls.Add(this.button17);
+>>>>>>> initial commit
             this.Controls.Add(this.button16);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button15);
@@ -268,6 +297,10 @@
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button16;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.Button button17;
+>>>>>>> initial commit
         private System.Windows.Forms.Label label1;
     }
 }
