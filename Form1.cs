@@ -17,6 +17,11 @@ namespace SmartCalc
             InitializeComponent();
         }
 
+        float a, b;
+        int count;
+        bool znak = true;
+
+
         private void Button10_Click(object sender, EventArgs e)
         {
             textBox1.Text = textBox1.Text + '0';
@@ -65,6 +70,15 @@ namespace SmartCalc
         private void Button9_Click(object sender, EventArgs e)
         {
             textBox1.Text = textBox1.Text + '9';
+        }
+
+        private void Button12_Click(object sender, EventArgs e)
+        {
+            a = float.Parse(textBox1.Text);
+            textBox1.Clear();
+            count = 1;
+            label1.Text = a.ToString() + "+";
+            znak = true;
         }
 
         private void Button16_Click(object sender, EventArgs e)
